@@ -1,5 +1,5 @@
-SELECT COALESCE(SP.shop_id, 'ฒปร๗')  AS shop_id, 
-       COALESCE(SP.shop_name, 'ฒปร๗') AS shop_name,
+SELECT COALESCE(SP.shop_id, 'ไธๆ็กฎ')  AS shop_id, 
+       COALESCE(SP.shop_name, 'ไธๆ็กฎ') AS shop_name,
        P.product_id, 
        P.product_name, 
        P.sale_price
